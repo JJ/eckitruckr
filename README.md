@@ -27,4 +27,3 @@ No permite:
 - Garantía  
 
 ### [Ver archivo de logo](img/logo.png)
-
