@@ -13,7 +13,7 @@ Aunque este sistema busca ser justo, en la práctica genera dos problemas princi
 En conjunto, esto da lugar a una **distribución inequitativa de los viajes**, tanto en términos de esfuerzo como de beneficio económico, afectando a la equidad y satisfacción de los trabajadores.
 
 ## Licencia
-Este proyecto utiliza la licencia **GNU Affero General Public License v3.0**.  
+Eckitruckr tiene licencia [GNU AGPLv3](LICENSE). 
 
 Permite:  
 - Uso comercial  
