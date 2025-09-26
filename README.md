@@ -1,6 +1,8 @@
 # eckitruckr
 Proyecto para el hackatón de IV 2025-26
 
+![Logo de eckitruckr](web/assets/logo.jpg)
+
 ## Descripción del problema
 En muchas cooperativas de transporte, la asignación de viajes se gestiona mediante un sistema sencillo: los camioneros apuntan su nombre y hora de llegada en una pizarra, y los viajes se van asignando en orden, priorizando a quien lleva más tiempo parado.
 
@@ -25,5 +27,3 @@ Permite:
 No permite:  
 - Responsabilidad  
 - Garantía  
-
-### [Ver archivo de logo](img/logo.png)
