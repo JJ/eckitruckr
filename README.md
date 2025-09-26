@@ -26,5 +26,5 @@ No permite:
 - Responsabilidad  
 - Garantía  
 
-
+### [Ver archivo de logo](img/logo.png)
 
