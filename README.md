@@ -5,6 +5,7 @@ Este proyecto está siendo desarrollado para la asignatura Infraestructura Virtu
 Como base se presentaron varios problemas de los cuales finalmente elegimos el descrito más abajo. En base a este problema hemos, iniciado el desarrollo de una aplicación para resolverlo a la que hemos denominado "EckiTruckr".
 A continuación se presenta el proyecto en profundidad.
 
+
 ![Logo de eckitruckr](web/assets/logo.jpg)
 
 
