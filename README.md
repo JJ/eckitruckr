@@ -18,15 +18,5 @@ En conjunto, esto da lugar a una **distribución inequitativa de los viajes**, t
 Eckitruckr tiene licencia **GNU AGPLv3**.
 
 La información correspondiente de la licencia se encuentra en este [archivo](LICENSE).
-
-Permite:  
-- Uso comercial  
-- Modificación  
-- Distribución  
-- Uso de patentes  
-- Uso privado  
-
-No permite:  
-- Responsabilidad  
-- Garantía  
+ 
 
