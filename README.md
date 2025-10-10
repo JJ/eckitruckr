@@ -1,4 +1,4 @@
-# eckitruckr
+# EckiTruckr
 
 ## Proyecto para el hackatón de IV 2025-26
 Este proyecto está siendo desarrollado para la asignatura Infraestructura Virtual impartida en Ingeniería Informática en la UGR, el fin de su realización en el hackaton de las prácticas de la asignatura para el año 2025-2026 es el aprendizaje de la metodología y desarrollo correctos de una aplicación a nivel profesional.
@@ -6,7 +6,7 @@ Como base se presentaron varios problemas de los cuales finalmente elegimos el d
 A continuación se presenta el proyecto en profundidad.
 
 
-![Logo de eckitruckr](web/assets/EckiTruckr-logo-256x256.jpg)
+![Logo de EckiTruckr](web/assets/EckiTruckr-logo-256x256.jpg)
 
 
 ## Descripción del problema
@@ -21,7 +21,7 @@ Aunque este sistema busca ser justo, en la práctica genera dos problemas princi
 En conjunto, esto da lugar a una **distribución inequitativa de los viajes**, tanto en términos de esfuerzo como de beneficio económico, afectando a la equidad y satisfacción de los trabajadores.
 
 ## Licencia
-Eckitruckr tiene licencia **GNU AGPLv3**.
+EckiTruckr tiene licencia **GNU AGPLv3**.
 
 La información correspondiente de la licencia se encuentra en el fichero [LICENSE](LICENSE).
  
