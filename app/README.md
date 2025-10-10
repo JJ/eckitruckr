@@ -1,3 +1,3 @@
 # DIRECTORIO APP
 
-Directorio encargado de alojar todo el codigo fuente principal.
+Directorio encargado de alojar todo el código fuente principal.
