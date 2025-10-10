@@ -6,7 +6,7 @@ Como base se presentaron varios problemas de los cuales finalmente elegimos el d
 A continuación se presenta el proyecto en profundidad.
 
 
-![Logo de eckitruckr](web/assets/logo.jpg)
+![Logo de eckitruckr](web/assets/EckiTruckr-logo-256x256.jpg)
 
 ## Descripción del problema
 En muchas cooperativas de transporte, la asignación de viajes se gestiona mediante un sistema sencillo: los camioneros apuntan su nombre y hora de llegada en una pizarra, y los viajes se van asignando en orden, priorizando a quien lleva más tiempo parado.
