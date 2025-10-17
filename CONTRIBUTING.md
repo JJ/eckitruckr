@@ -3,12 +3,19 @@ Este documento detalla las políticas para la realización del proyecto y asegur
 
 
 ## Índice de contenido
-* [Política de merge](#política-de-merge)
+* [Políticas de PR](#políticas-de-pr)
+   * [Titulos asociados a los PR](#titulos-asociados-a-los-pr)
+   * [Política de merge](#tipo-utilizado-para-el-merge)
 * [Ortografía detallada del nombre de la aplicación](#ortografía-del-nombre-de-la-aplicación)
 * [Ortografía en los títulos de las ramas](#ortografía-en-los-nombres-de-las-ramas)
 
 
-### Política de merge
+### Políticas de PR
+
+### Titulos asociados a los PR
+Los títulos de los PR deberan llevar el número asociado al inicio del mismo para facilitar la compresión de la linealidad de los mismos. Ejemplo: "#26 Nombre del PR"
+
+#### Tipo utilizado para el merge
 Con el fín de mantener limpieza, orden y linealidad en el proyecto, el merge utilizado en todos los PR será de tipo **Merge Commit**. 
 
 ### Ortografía del nombre de la aplicación
