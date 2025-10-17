@@ -3,8 +3,8 @@ Este documento detalla las políticas para la realización del proyecto y asegur
 
 
 ## Índice de contenido
-[Política de merge](#política-de-merge)
-[Ortografía detallada del nombre de la aplicación](#ortografía-del-nombre-de-la-aplicación)
+    * [Política de merge](#política-de-merge)
+    * [Ortografía detallada del nombre de la aplicación](#ortografía-del-nombre-de-la-aplicación)
 
 
 ### Política de merge
