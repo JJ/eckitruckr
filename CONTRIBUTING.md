@@ -12,7 +12,7 @@ Este documento detalla las políticas para la realización del proyecto y asegur
 
 ### Políticas de PR
 
-### Titulos asociados a los PR
+#### Titulos asociados a los PR
 Los títulos de los PR deberán llevar el número asociado al inicio del mismo para facilitar la compresión de la linealidad de los mismos. Ejemplo: "#26 Nombre del PR"
 
 #### Tipo utilizado para el merge
