@@ -15,11 +15,11 @@ Este documento detalla las políticas para la realización del proyecto y asegur
 ### Políticas de PR
 
 ### Títulos asociados a los PR
-Los títulos de los PR deberan llevar el número asociado al inicio del mismo para facilitar la compresión de la linealidad de los mismos. Ejemplo: "´#26´ Nombre del PR"
+Los títulos de los PR deberan llevar el número asociado al inicio del mismo para facilitar la compresión de la linealidad de los mismos. Ejemplo: "#26 Nombre del PR"
 
 
 ### Descripción de los PR
-Debe inlcuirse en la descripción un cierre del issue al que está dirigido de la siguiente forma: "Closes ´#23´". Además debe inlcuirse una breve descripción del motivo del PR.
+Debe inlcuirse en la descripción un cierre del issue al que está dirigido de la siguiente forma: "Closes #23". Además debe inlcuirse una breve descripción del motivo del PR.
 
 
 #### Tipo utilizado para el merge
