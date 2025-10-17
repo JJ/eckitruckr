@@ -3,6 +3,9 @@
 ## Proyecto para el hackatón de IV 2025-26
 Este proyecto está siendo desarrollado para la asignatura Infraestructura Virtual impartida en Ingeniería Informática en la UGR, el fin de su realización en el hackaton de las prácticas de la asignatura para el año 2025-2026 es el aprendizaje de la metodología y desarrollo correctos de una aplicación a nivel profesional.
 Como base se presentaron varios problemas de los cuales finalmente elegimos el descrito más abajo. En base a este problema hemos, iniciado el desarrollo de una aplicación para resolverlo a la que hemos denominado "EckiTruckr".
+
+Los desarrolladores asociados a este proyecto deben seguir la siguiente política asociada: [Política de proyecto](CONTRIBUTING.md)
+
 A continuación se presenta el proyecto en profundidad.
 
 
