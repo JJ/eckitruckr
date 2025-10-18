@@ -1,0 +1,30 @@
+name: Plantilla para que los issues que se abran sigan las buenas prácticas
+description: Usa esta plantilla cuando crees un issue para registrar un problema en el proyecto que haya que solucionar.
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Platilla para para que los issues que se abran sigan las buenas prácticas
+        # Gracias por usar esta plantilla. Los issues son la fuente de verdad de nuestro proyecto.
+        # **Buena Práctica:** Un buen Issue representa siempre un problema **Claro**, **Conciso** y **Accionable** y nunca expresa una solución.
+        # Por favor, sigue las instrucciones de cada campo para facilitar la clasificación y el inicio rápido del trabajo.
+
+  - type: textarea
+    id: pasos_necesarios
+    attributes:
+      label: Comprobaciones
+      description: Verifica que has comprobado estos términos antes de crear el issue marcando las casillas
+      placeholder: |
+        - [ ] ¿Tiene realmente relevancia en este proyecto este problema?
+        - [ ] ¿Estás expresando un problema?
+        - [ ] ¿Solo expresas problemas y no das una solución explícita en la descripción de este issue?
+        - [ ] He comprobado que este issue no está duplicada.
+        - [ ] He incluido toda la información necesaria para comenzar a trabajar.
+        - [ ] Mi Issue se enfoca en el QUÉ (el problema/necesidad), no en el CÓMO (la solución).
+        - [ ] Si este trabajo está relacionado con otro Issue o Pull Request, lo he mencionado en la descripción.
+        - [ ] Si este Issue añade una funcionalidad, he recordado que necesita actualizar la documentación (o crear un Issue de documentación).
+        - [ ] He usado los @mentions para notificar a la persona o equipo directamente relevante.
+        - [ ] He asignado las etiquetas adecuadas a este Issue.
+    validations:
+      required: true
