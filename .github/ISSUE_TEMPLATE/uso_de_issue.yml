@@ -1,17 +1,14 @@
-name: Plantilla de buenas prácticas de issues
-description: Usa esta plantilla cuando crees un issue para registrar una tarea, necesidad o una solicitud de uso de una funcionalidad específica.
-title: "[TASK]: Título descriptivo y conciso"
-labels: ["tracking", "prioridad: media"] # Etiquetas por defecto
-assignees: # Puedes asignar a alguien por defecto, ej: ["usuario-git"]
+name: Plantilla para que los issues que se abran sigan las buenas prácticas
+description: Usa esta plantilla cuando crees un issue para registrar un problema en el proyecto que haya que solucionar.
 
 body:
   - type: markdown
     attributes:
       value: |
-        # Guía para Crear Issues Efectivos
-        Gracias por usar esta plantilla. Los issues son la fuente de verdad de nuestro proyecto.
-        **Buena Práctica:** Un buen Issue representa siempre un problema **Claro**, **Conciso** y **Accionable** y nunca expresa una solución.
-        Por favor, sigue las instrucciones de cada campo para facilitar la clasificación y el inicio rápido del trabajo.
+        # Platilla para para que los issues que se abran sigan las buenas prácticas
+        # Gracias por usar esta plantilla. Los issues son la fuente de verdad de nuestro proyecto.
+        # **Buena Práctica:** Un buen Issue representa siempre un problema **Claro**, **Conciso** y **Accionable** y nunca expresa una solución.
+        # Por favor, sigue las instrucciones de cada campo para facilitar la clasificación y el inicio rápido del trabajo.
 
   - type: textarea
     id: pasos_necesarios
@@ -22,7 +19,7 @@ body:
         - [ ] ¿Tiene realmente relevancia en este proyecto este problema?
         - [ ] ¿Estás expresando un problema?
         - [ ] ¿Solo expresas problemas y no das una solución explícita en la descripción de este issue?
-        - [ ] He comprobado que esta tarea no está duplicada.
+        - [ ] He comprobado que este issue no está duplicada.
         - [ ] He incluido toda la información necesaria para comenzar a trabajar.
         - [ ] Mi Issue se enfoca en el QUÉ (el problema/necesidad), no en el CÓMO (la solución).
         - [ ] Si este trabajo está relacionado con otro Issue o Pull Request, lo he mencionado en la descripción.
