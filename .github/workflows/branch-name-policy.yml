@@ -7,17 +7,15 @@ on:
     - '*í*'
     - '*ó*'
     - '*ú*'
-
 jobs:
   no_slash_in_branch_names:
     runs-on: ubuntu-latest
     steps:
       - name: Si salta, debería fallar
         run: |
-          __msg="::error::Esta rama ${GITHUB_REF_NAME} tiene una vocal acentuada o letra como. Por favor, no la uses en nombres de rama.
+          __msg="::error title=NOmbre de rama incorrecto::Esta rama ${GITHUB_REF_NAME} tiene una vocal acentuada o letra como. Por favor, no la uses en nombres de rama.
           Cierra este PR y renombra la rama con
               git checkout ${GITHUB_REF_NAME}
               git branch -m <nuevo_nombre_sin_esas_letras>"
           echo "$__msg"
-          echo ::set-output name=status::failure
           exit 1
