@@ -17,7 +17,7 @@ body:
       description: Verifica que has comprobado estos términos antes de crear el issue marcando las casillas
       placeholder: |
         - [ ] ¿Tiene realmente relevancia en este proyecto este problema?
-        - [ ] ¿Estás expresando un problema?
+        - [ ] ¿Estoy expresando un problema?
         - [ ] ¿Solo expresas problemas y no das una solución explícita en la descripción de este issue?
         - [ ] He comprobado que este issue no está duplicada.
         - [ ] He incluido toda la información necesaria para comenzar a trabajar.
