@@ -27,7 +27,7 @@ Con el fín de mantener limpieza, orden y linealidad en el proyecto, el merge ut
 
 
 ### Ortografía de título de los commits
-
+Incluir #numero de issue asociado al incio del titulo de cada commit.
 
 ### Ortografía del nombre de la aplicación
 Para mantener la identidad y visibilidad de la aplicación, el nombre que se use para referirnos a esta en cada parte del proyecto debe seguir siempre la misma ortografía la cual se escribirá de la siguiente forma: **EckiTruckr**.
