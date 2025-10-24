@@ -18,7 +18,7 @@ body:
       placeholder: |
         - [ ] ¿Tiene realmente relevancia en este proyecto este problema?
         - [ ] ¿Estoy expresando un problema?
-        - [ ] ¿Solo expresas problemas y no das una solución explícita en la descripción de este issue?
+        - [ ] ¿Solo expreso problemas y no doy una solución explícita en la descripción de este issue?
         - [ ] He comprobado que este issue no está duplicada.
         - [ ] He incluido toda la información necesaria para comenzar a trabajar.
         - [ ] Mi Issue se enfoca en el QUÉ (el problema/necesidad), no en el CÓMO (la solución).
