@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Platilla para para que los issues que se abran sigan las buenas prácticas
+        # Plantilla para para que los issues que se abran sigan las buenas prácticas
         # Gracias por usar esta plantilla. Los issues son la fuente de verdad de nuestro proyecto.
         # **Buena Práctica:** Un buen Issue representa siempre un problema **Claro**, **Conciso** y **Accionable** y nunca expresa una solución.
         # Por favor, sigue las instrucciones de cada campo para facilitar la clasificación y el inicio rápido del trabajo.
