@@ -15,6 +15,7 @@ body:
     attributes:
       label: Comprobaciones
       description: Verifica que has comprobado estos términos antes de crear el issue marcando las casillas
+      rows: 15
       placeholder: |
         - [ ] ¿Tiene realmente relevancia en este proyecto este problema?
         - [ ] ¿Estoy expresando un problema?
