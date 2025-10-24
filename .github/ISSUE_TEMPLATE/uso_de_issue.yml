@@ -10,22 +10,21 @@ body:
         **Buena Práctica:** Un buen Issue representa siempre un problema **Claro**, **Conciso** y **Accionable** y nunca expresa una solución.
         Por favor, sigue las instrucciones de cada campo para facilitar la clasificación y el inicio rápido del trabajo.
 
-  - type: textarea
-    id: pasos_necesarios
+  - type: checkboxes
+    id: comprobaciones
     attributes:
-      label: Comprobaciones
-      description: Verifica que has comprobado estos términos antes de crear el issue marcando las casillas
-      placeholder: |
-        - [ ] ¿Tiene realmente relevancia en este proyecto este problema?
-        - [ ] ¿Estoy expresando un problema?
-        - [ ] ¿Solo expreso problemas y no doy una solución explícita en la descripción de este issue?
-        - [ ] He comprobado que este issue no está duplicada.
-        - [ ] He incluido toda la información necesaria para comenzar a trabajar.
-        - [ ] Mi Issue se enfoca en el QUÉ (el problema/necesidad), no en el CÓMO (la solución).
-        - [ ] Si este trabajo está relacionado con otro Issue o Pull Request, lo he mencionado en la descripción.
-        - [ ] Si este Issue añade una funcionalidad, he recordado que necesita actualizar la documentación (o crear un Issue de documentación).
-        - [ ] He usado los @mentions para notificar a la persona o equipo directamente relevante.
-        - [ ] He asignado las etiquetas adecuadas a este Issue.
-      render: markdown
+      label: Lista de comprobación
+      description: Verifica que has revisado estos puntos antes de crear el issue.
+      options:
+        - label: ¿Tiene realmente relevancia en este proyecto este problema?
+        - label: ¿Estoy expresando un problema?
+        - label: ¿Solo expreso problemas y no doy una solución explícita en la descripción de este issue?
+        - label: He comprobado que este issue no está duplicado.
+        - label: He incluido toda la información necesaria para comenzar a trabajar.
+        - label: Mi Issue se enfoca en el QUÉ (el problema/necesidad), no en el CÓMO (la solución).
+        - label: Si este trabajo está relacionado con otro Issue o Pull Request, lo he mencionado en la descripción.
+        - label: Si este Issue añade una funcionalidad, he recordado que necesita actualizar la documentación (o crear un Issue de documentación).
+        - label: He usado los @mentions para notificar a la persona o equipo directamente relevante.
+        - label: He asignado las etiquetas adecuadas a este Issue.
     validations:
       required: true
