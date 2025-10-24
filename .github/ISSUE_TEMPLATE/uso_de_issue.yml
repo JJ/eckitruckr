@@ -15,7 +15,6 @@ body:
     attributes:
       label: Comprobaciones
       description: Verifica que has comprobado estos términos antes de crear el issue marcando las casillas
-      rows: 15
       placeholder: |
         - [ ] ¿Tiene realmente relevancia en este proyecto este problema?
         - [ ] ¿Estoy expresando un problema?
@@ -27,5 +26,6 @@ body:
         - [ ] Si este Issue añade una funcionalidad, he recordado que necesita actualizar la documentación (o crear un Issue de documentación).
         - [ ] He usado los @mentions para notificar a la persona o equipo directamente relevante.
         - [ ] He asignado las etiquetas adecuadas a este Issue.
+      render: markdown
     validations:
       required: true
