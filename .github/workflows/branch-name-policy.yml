@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - '*á*'
+    - '*é*'
 
 jobs:
   no_slash_in_branch_names:
