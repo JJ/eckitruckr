@@ -26,5 +26,6 @@ body:
         - label: Si este Issue añade una funcionalidad, he recordado que necesita actualizar la documentación (o crear un Issue de documentación).
         - label: He usado los @mentions para notificar a la persona o equipo directamente relevante.
         - label: He asignado las etiquetas adecuadas a este Issue.
+        - label: He asignado este issue al milestone que corresponde.
     validations:
       required: true
