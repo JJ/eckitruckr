@@ -2,7 +2,7 @@ name: Fail when incorrect branch names are used
 on:
   push:
     branches:
-    - '*[\U00E1\U00E9\U00ED\U00F3\U00FA]*'
+    - '*á*'
 
 jobs:
   no_slash_in_branch_names:
