@@ -10,3 +10,14 @@ jobs:
             uses: JJ/pull-request-checks-action@v5.2
         -   name: Shows result
             run: echo $CONTRIBUTING && echo $check0
+        -   name: Verifies if the entire checklist is marked
+            if: ${{steps.pr_body_checks.outputs.check0 == 'false' ||
+                    steps.pr_body_checks.outputs.check1 == 'false' ||
+                    steps.pr_body_checks.outputs.check2 == 'false' ||
+                    steps.pr_body_checks.outputs.check3 == 'false' ||
+                    steps.pr_body_checks.outputs.check4 == 'false' ||
+                    steps.pr_body_checks.outputs.check5 == 'false' ||
+                    steps.pr_body_checks.outputs.check6 == 'false' ||
+                    steps.pr_body_checks.outputs.check7 == 'false' ||
+                    steps.pr_body_checks.outputs.check8 == 'false'}}
+            run: echo "Por favor, revisa y marca todas las casillas marcables del PR" && exit 1
