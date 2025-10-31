@@ -20,6 +20,7 @@ Los títulos de los PR deberan llevar el número asociado al inicio del mismo pa
 
 ### Descripción de los PR
 Debe inlcuirse en la descripción un cierre del issue al que está dirigido de la siguiente forma: "Closes #23". Además debe inlcuirse una breve descripción del motivo del PR.
+Para ver que se ha seguido las buenas prácticas nos podemos fijar en la [plantilla](docs/pull_request_template.md).
 
 
 #### Tipo utilizado para el merge
