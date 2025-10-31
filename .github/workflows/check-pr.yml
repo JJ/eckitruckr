@@ -1,0 +1,12 @@
+name: Obtain values for checklist
+on: [pull_request, pull_request_target]
+
+jobs:
+    get-checks:
+        runs-on: ubuntu-latest
+        steps:
+        -   name: Verifies checklist in PR body
+            id: pr_body_checks
+            uses: JJ/pull-request-checks-action@v5.2
+        -   name: Shows result
+            run: echo $CONTRIBUTING && echo $check0
