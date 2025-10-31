@@ -1,0 +1,21 @@
+name: Fail when incorrect branch names are used
+on:
+  push:
+    branches:
+    - '*á*'
+    - '*é*'
+    - '*í*'
+    - '*ó*'
+    - '*ú*'
+jobs:
+  no_slash_in_branch_names:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Si salta, debería fallar
+        run: |
+          __msg="::error title=Nombre de rama incorrecto::Esta rama ${GITHUB_REF_NAME} contiene una vocal acentuada. Por favor, no la uses en nombres de rama.
+          Cierra este PR y renombra la rama con
+              git checkout ${GITHUB_REF_NAME}
+              git branch -m <nuevo_nombre_sin_esas_letras>"
+          echo "$__msg"
+          exit 1
