@@ -13,6 +13,7 @@ Closes #Nº Issue <!-- Cambia NºIssue por el Issue referido en tu PUll_request 
 * [ ] Se ha solicitado la revisión del PR antes de unirlo al proyecto principal
 * [ ] Si el PR es complejo, la descripción incluye una guía sobre dónde empezar a revisar o el orden de los archivos, o algún enlace de referencia bibliográfica
 * [ ] Se ha comprobado que realmente resuelve el Issue
-
+* [ ] Se está trabajando sobre una rama que no sea main
+* [ ] Mi código es acorde al ya existente
 ## ¿CÓMO SE HA COMPROBADO?
 <!-- Añade una descripción de como lo has comprobado en caso de que se haya comprobado-->
