@@ -24,16 +24,10 @@ body:
       label: Lista de comprobación
       description: Verifica que has revisado estos puntos antes de crear el issue.
       options:
-        - label: ¿Tiene realmente relevancia en este proyecto este problema?
-        - label: ¿Estoy expresando un problema?
-        - label: ¿Solo expreso problemas y no doy una solución explícita en la descripción de este issue?
-        - label: He comprobado que este issue no está duplicado.
-        - label: He incluido toda la información necesaria para comenzar a trabajar.
-        - label: Mi Issue se enfoca en el QUÉ (el problema/necesidad), no en el CÓMO (la solución).
-        - label: Si este trabajo está relacionado con otro Issue o Pull Request, lo he mencionado en la descripción.
-        - label: Si este Issue añade una funcionalidad, he recordado que necesita actualizar la documentación (o crear un Issue de documentación).
-        - label: He usado los @mentions para notificar a la persona o equipo directamente relevante.
-        - label: He asignado las etiquetas adecuadas a este Issue.
-        - label: He asignado este issue al milestone que corresponde.
+        - label: Mi issue describe claramente un problema o necesidad (el QUÉ), sin proponer una solución (el CÓMO).
+        - label: He incluido toda la información necesaria para entender y reproducir el problema
+        - label: He mencionado cualquier otro Issue o Pull Request que esté relacionado con este.
+        - label: He asignado un milestone y las etiquetas adecuadas a este Issue.
+        - label: He buscado en los issues existentes y he comprobado que este no está duplicado.
     validations:
       required: true
