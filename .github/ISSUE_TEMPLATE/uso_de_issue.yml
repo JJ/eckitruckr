@@ -14,7 +14,7 @@ body:
     attributes:
       label: Descripción detallada del problema
       description: "Describe de la forma más clara y concisa posible el problema."
-      placeholder: "Escriba aquí"
+      placeholder: "<!-- Escriba aquí -->"
     validations:
       required: true
     
